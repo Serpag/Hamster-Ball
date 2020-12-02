@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MovimientoBola : MonoBehaviour
 {
     public float speed = 0;
+    private bool _touchingFloor;
 
     Rigidbody _rigidbody;
 
@@ -20,12 +22,29 @@ public class MovimientoBola : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movX = Input.GetAxis("Horizontal");
+        if (_touchingFloor)
+        {
+              
+            movX = Input.GetAxis("Horizontal");
 
-        movY = Input.GetAxis("Vertical");
+            movY = Input.GetAxis("Vertical");
 
-        Vector3 mov = new Vector3(movX, 0, movY);
+            Vector3 mov = new Vector3(movX, 0, movY);
 
-        _rigidbody.AddForce(mov);
+            _rigidbody.AddForce(mov*speed);
+        }
+      
+    }
+
+    private void OnCollisionStay(Collision other)
+    {
+        _touchingFloor = true;
+     //   print("Collition lol");
+    }
+
+    private void OnCollisionExit(Collision other)
+    {
+        _touchingFloor = false;
+     //   print("no collition gang >:D");
     }
 } 

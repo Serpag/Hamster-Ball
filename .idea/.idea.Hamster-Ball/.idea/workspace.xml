@@ -18,8 +18,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/MovimientoBola.cs" />
         <option value="$PROJECT_DIR$/Assets/DieOnContact.cs" />
+        <option value="$PROJECT_DIR$/Assets/MovimientoBola.cs" />
+        <option value="$PROJECT_DIR$/Assets/WallJump.cs" />
       </list>
     </option>
   </component>
@@ -73,6 +74,7 @@
       <workItem from="1606338224904" duration="1049000" />
       <workItem from="1606770680060" duration="142000" />
       <workItem from="1606770887179" duration="2146000" />
+      <workItem from="1606942630808" duration="2454000" />
     </task>
     <servers />
   </component>

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - KillZone
+  - Sticky
   layers:
   - Default
   - TransparentFX
