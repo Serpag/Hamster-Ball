@@ -8,6 +8,8 @@ public class MovimientoBola : MonoBehaviour
     public float speed = 0;
     private bool _touchingFloor;
 
+    public float jumpForce;
+    
     Rigidbody _rigidbody;
 
     float movX;
@@ -24,7 +26,11 @@ public class MovimientoBola : MonoBehaviour
     {
         if (_touchingFloor)
         {
-              
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                _rigidbody.AddForce(Vector3.up*jumpForce);
+            } 
+            
             movX = Input.GetAxis("Horizontal");
 
             movY = Input.GetAxis("Vertical");

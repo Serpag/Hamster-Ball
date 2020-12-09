@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MovimientoBola.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -19,8 +20,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/DieOnContact.cs" />
-        <option value="$PROJECT_DIR$/Assets/MovimientoBola.cs" />
         <option value="$PROJECT_DIR$/Assets/WallJump.cs" />
+        <option value="$PROJECT_DIR$/Assets/MovimientoBola.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraRotation.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +77,7 @@
       <workItem from="1606770680060" duration="142000" />
       <workItem from="1606770887179" duration="2146000" />
       <workItem from="1606942630808" duration="2454000" />
+      <workItem from="1607549919186" duration="995000" />
     </task>
     <servers />
   </component>

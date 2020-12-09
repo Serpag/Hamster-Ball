@@ -7,8 +7,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CameraFollow.cs" t="Include" />
+        <e p="CameraRotation.cs" t="Include" />
         <e p="DieOnContact.cs" t="Include" />
         <e p="MovimientoBola.cs" t="Include" />
+        <e p="MovimientoBola2.cs" t="Include" />
         <e p="WallJump.cs" t="Include" />
       </e>
       <e p="Hamster-Ball.sln" t="IncludeFlat" />
