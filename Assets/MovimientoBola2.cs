@@ -19,17 +19,29 @@ public class MovimientoBola2 : MonoBehaviour
     private Vector3 _offset;
 
     private float _yPosition;
+
+    public int verticalSpeedTol;
+
+    public Rigidbody mrRigid;
     
     // Start is called before the first frame update
     void Start()
     {
         _offset = transform.position - ballSumthing.position;
         _yPosition = transform.position.y;
+        mrRigid = ballSumthing.gameObject.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (mrRigid.velocity.y <= verticalSpeedTol)
+        {
+            transform.position = ballSumthing.position;
+            print(mrRigid.velocity.y+" Should tp/follow ");
+        }
+        
         transform.position = new Vector3(ballSumthing.position.x,_yPosition ,ballSumthing.position.z )+ _offset;
         
         if (Input.GetMouseButtonDown(1))

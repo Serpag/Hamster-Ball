@@ -3306,6 +3306,8 @@ MonoBehaviour:
   ballSumthing: {fileID: 1394357366}
   camRotSpeed: 20
   tolerance: 5
+  verticalSpeedTol: -1
+  mrRigid: {fileID: 0}
 --- !u!43 &2071100198
 Mesh:
   m_ObjectHideFlags: 0
@@ -3555,13 +3557,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142690910}
-  m_LocalRotation: {x: 0.39936572, y: -0.1032562, z: 0.26106042, w: 0.87275}
+  m_LocalRotation: {x: 0.51957583, y: -0.24339935, z: 0.34465563, w: 0.74297386}
   m_LocalPosition: {x: 41.1, y: 51.4, z: -34.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 48.677, y: 2.455, z: 34.417}
+  m_LocalEulerAnglesHint: {x: 70.025, y: -0.592, z: 49.357}
 --- !u!1001 &2107040026469238161
 PrefabInstance:
   m_ObjectHideFlags: 0
