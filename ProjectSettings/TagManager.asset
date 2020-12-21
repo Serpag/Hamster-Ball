@@ -6,6 +6,7 @@ TagManager:
   tags:
   - KillZone
   - Sticky
+  - CheckpointTrigger
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ using UnityEngine;
 public class MovimientoBola : MonoBehaviour
 {
     public float speed = 0;
+    public float airSpeed;
     private bool _touchingFloor;
 
     public float jumpForce;
@@ -24,6 +25,10 @@ public class MovimientoBola : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        movX = Input.GetAxis("Horizontal");
+
+        movY = Input.GetAxis("Vertical");
+        
         if (_touchingFloor)
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -31,15 +36,17 @@ public class MovimientoBola : MonoBehaviour
                 _rigidbody.AddForce(Vector3.up*jumpForce);
             } 
             
-            movX = Input.GetAxis("Horizontal");
-
-            movY = Input.GetAxis("Vertical");
-
             Vector3 mov = new Vector3(movX, 0, movY);
 
             _rigidbody.AddForce(mov*speed);
         }
-      
+        else
+        {
+            Vector3 mov = new Vector3(movX, 0, movY);
+            
+            _rigidbody.AddForce(mov*airSpeed);
+        }
+
     }
 
     private void OnCollisionStay(Collision other)

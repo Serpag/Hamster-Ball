@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f6b8d7f-d0e5-4d03-8107-0cb83d45469e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hamster-Ball/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hamster-Ball/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hamster-Ball/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hamster-Ball/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hamster-Ball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hamster-Ball/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MovimientoBola2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MovimientoBola2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DieOnContact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DieOnContact.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color_Rojo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Color_Rojo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MovimientoBola.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MovimientoBola.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MovimientoBola2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MovimientoBola2.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Escin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/New Escin.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Escin/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/New Escin/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Escin/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/New Escin/LightingData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Escin/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/New Escin/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Escin/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/New Escin/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WallJump.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WallJump.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,14 +39,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/MovimientoBola.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraRotation.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/MovimientoBola2.cs" />
+      <option value="$PROJECT_DIR$/Assets/MovimientoBola.cs" />
+      <option value="$PROJECT_DIR$/Assets/CheckpointTP.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CheckpointTP.cs" />
+      <option value="$PROJECT_DIR$/Assets/CollitionDelete.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1knXqXIhBtejiYrGnZTvYQLU2wd" />
@@ -81,6 +105,7 @@
       <workItem from="1608152614413" duration="135000" />
       <workItem from="1608152983933" duration="3317000" />
       <workItem from="1608237269053" duration="3232000" />
+      <workItem from="1608582156929" duration="4659000" />
     </task>
     <servers />
   </component>
